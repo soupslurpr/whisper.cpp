@@ -2,7 +2,11 @@
 
 # Helper script to run the bench tool on all models and print the results in share-able format
 
+<<<<<<< HEAD
 printf "Usage: ./bench.sh [n_threads] [encoder-only]\n"
+=======
+printf "Usage: ./bench-all.sh [n_threads]\n"
+>>>>>>> janekb04-improve-performance/improve-performance
 
 if [ -z "$1" ]; then
     n_threads=4
